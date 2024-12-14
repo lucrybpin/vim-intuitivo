@@ -1,0 +1,518 @@
+AI can help but can't solve it.
+This is the order to solve.
+
+(1) . 
+	.
+	.
+	.
+	.
+
+	(2) L
+		E
+		T
+		T
+		E
+		R
+		S
+		 	(3) numbers 
+							_e (offset 7 or -7)
+							_s (offset 7 or -7)
+							_r (offset 7 or -7)
+							_e (offset 7 or -7)
+							_v (offset 7 or -7)
+							_e (offset 7 or -7)
+						(4)	_r (offset 7 or -7)
+
+start .code.
+
+    3d
+
+
+
+    sprite
+
+
+
+
+            proceduraL
+
+
+
+
+cooldown
+
+
+
+9m
+
+
+
+    cli
+
+
+
+
+pathfinding
+
+
+
+
+
+
+        hexadEcimal
+
+
+
+
+
+2n		_uhtllym
+
+
+
+
+
+
+                kernel
+
+
+
+
+
+
+
+
+
+
+
+    expression
+
+
+
+
+
+        14e	
+
+
+
+
+
+
+lAtency
+
+
+
+
+_yt
+
+
+
+
+
+
+    emulation	.this.
+
+
+
+
+
+
+
+
+
+
+
+
+	klapaucius
+
+
+
+
+
+
+
+
+
+
+
+            textuRe
+
+
+
+
+
+            
+
+
+
+
+
+
+    biNary
+
+
+
+
+6a
+
+
+
+
+
+
+source
+
+
+
+
+
+Vertex
+
+
+
+
+
+
+render
+
+
+
+
+
+    1a
+
+
+
+
+
+    refactor
+
+
+
+
+
+
+
+
+
+
+
+
+        lIstener
+
+
+
+
+
+.hack.
+
+
+
+
+
+firMware
+
+
+
+
+
+
+
+
+
+
+
+
+				compiler
+
+
+
+
+
+_lupoz  
+
+
+
+
+
+algorithm
+
+
+
+
+
+15r
+    
+
+
+
+
+
+    Tree
+
+
+
+
+
+
+
+
+
+
+
+dll
+
+
+
+
+
+
+
+
+
+
+
+
+        api
+
+
+
+
+
+
+
+
+
+
+
+    sandbOx
+
+
+
+
+
+
+
+
+
+
+
+
+protocol
+
+
+
+
+
+
+
+
+
+
+
+            shaDer
+
+
+
+
+
+
+_kuh
+
+
+
+
+
+leArning
+
+
+
+
+
+        
+
+
+
+
+
+        virtual
+
+
+
+
+
+
+
+
+
+
+
+
+        immutable
+
+
+
+
+
+11l
+
+
+
+
+
+assembler
+
+
+
+
+
+
+
+
+
+
+
+        quantum
+
+
+
+
+
+_lzpy
+
+
+
+
+
+    debug
+
+
+
+
+
+        12a
+
+
+
+
+
+
+thread
+
+
+
+
+
+
+
+
+
+    git    7n
+
+
+
+
+
+
+13t
+
+
+
+
+
+cYberpunk
+
+
+
+
+
+.may.
+
+
+
+
+
+            server
+
+
+
+
+
+        5h
+
+
+
+
+
+
+    syntax
+
+
+
+
+
+
+
+
+dll
+
+
+
+
+
+min-maxing
+
+
+
+
+
+
+		hash
+
+
+
+
+
+
+hotfix
+
+
+
+
+dependency
+
+
+8k
+
+
+refactor
+
+
+
+
+
+
+            cache
+
+
+
+orm
+
+
+
+congratulations
+
+
+    assembler
+
+
+
+regex	10e
+
+
+
+.you.
+
+
+4t		end
+
+no secret beyond this point. Just a free space so you can insert:

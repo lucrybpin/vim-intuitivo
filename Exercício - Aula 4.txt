@@ -1,0 +1,68 @@
+Design Patterns no Desenvolvimento de Jogos
+No desenvolvimento de jogos, a complexidade dos sistemas e a necessidade de manter o código organizado tornam os design patterns (padrões de design) ferramentas essenciais. 
+Eles são soluções reutilizáveis e testadas para problemas recorrentes, facilitando a criação de jogos escaláveis, modularizados e de fácil manutenção. 
+Vamos explorar alguns dos principais padrões utilizados no desenvolvimento de jogos: State, Observer, Command, Object Pooling, entre outros.
+
+1. State Pattern
+O State Pattern é ideal para gerenciar diferentes estados de objetos de forma eficiente. 
+Em um jogo, personagens ou sistemas frequentemente mudam de estado. Por exemplo, um inimigo pode estar em um estado de "patrulha", "alerta" ou "perseguição". 
+O padrão State permite que a lógica associada a cada estado seja encapsulada em objetos diferentes, fazendo com que o código se mantenha limpo e fácil de modificar. 
+Ele também facilita a adição de novos estados sem impactar a estrutura existente, tornando o sistema mais flexível e expansível.
+
+    // C#
+    Character character = new Character();
+    character.HandleInput(); // "Character is idle."
+    character.HandleInput(); // "Character is walking."
+    character.HandleInput(); // "Character is running."
+    character.HandleInput(); // "Character is idle."
+
+2. Observer Pattern
+O Observer Pattern é utilizado para criar um sistema de eventos, onde um objeto (chamado de "sujeito") notifica outros objetos (os "observadores") sempre que seu estado muda. 
+Esse padrão é muito útil em jogos para atualizar a interface do usuário, enviar notificações ou disparar eventos com base em ações do jogador. 
+O grande benefício desse padrão é que ele permite que objetos independentes se comuniquem sem um acoplamento forte, facilitando a manutenção e evolução do código.
+
+    // C#
+    var eventManager = new GameEventManager();
+    var player1 = new Player();
+    var player2 = new Player();
+
+    eventManager.Attach(player1);
+    eventManager.Attach(player2);
+
+    eventManager.Notify("New item collected!"); // "Player received update: New item collected!"
+
+3. Command Pattern
+O Command Pattern é útil quando se deseja encapsular uma solicitação ou ação em um objeto, permitindo que ela seja tratada de maneira uniforme, independente de quem a executa. 
+Esse padrão é bastante empregado em jogos para gerenciar entradas de usuário, como comandos de movimento ou ações de combate. 
+Ele também facilita o uso de funcionalidades como "desfazer" ou "refazer", além de permitir que ações sejam agendadas ou executadas em diferentes momentos.
+
+    // C#
+    Character character = new Character();
+    InputHandler inputHandler = new InputHandler();
+
+    inputHandler.SetCommand(new MoveCommand(character));
+    inputHandler.Invoke(); // "Character moves."
+
+    inputHandler.SetCommand(new AttackCommand(character));
+    inputHandler.Invoke(); // "Character attacks."    // Comando abstrato
+
+4. Object Pooling
+O Object Pooling é um padrão essencial para otimizar o uso de memória e desempenho em jogos, especialmente quando se trabalha com grandes quantidades de objetos que são frequentemente criados e destruídos, como inimigos ou projéteis. Em vez de criar e destruir objetos repetidamente, o Object Pool mantém uma coleção de objetos prontos para serem reutilizados, evitando a sobrecarga do gerenciamento de memória e aumentando a performance do jogo.
+
+    // C#
+    BulletPool pool = new BulletPool(5);
+    Bullet bullet = pool.GetBullet();
+    pool.ReturnBullet(bullet);
+
+6. Strategy Pattern
+O Strategy Pattern permite alterar o comportamento de um objeto de forma dinâmica, sem alterar seu código interno.
+Esse padrão é útil quando você tem várias maneiras de realizar uma tarefa e deseja trocar essas maneiras facilmente.
+No contexto de jogos, isso é frequentemente aplicado em IA, onde um inimigo pode ter diferentes comportamentos dependendo da situação.
+
+    // C#
+    Enemy enemy = new Enemy(new AggressiveAttack());
+    enemy.PerformAttack();
+    enemy.SetAttackBehavior(new DefensiveAttack());
+    enemy.PerformAttack();
+    enemy.SetAttackBehavior(new RangedAttack());
+    enemy.PerformAttack();
